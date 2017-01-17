@@ -1,0 +1,6 @@
+[submodule "itpp"]
+	path = itpp
+	url = git://git.code.sf.net/p/itpp/git
+[submodule "mbelib"]
+	path = mbelib
+	url = https://github.com/szechyjs/mbelib
