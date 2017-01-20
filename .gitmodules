@@ -4,3 +4,6 @@
 [submodule "mbelib"]
 	path = mbelib
 	url = https://github.com/szechyjs/mbelib
+[submodule "dsd"]
+	path = dsd
+	url = https://github.com/szechyjs/dsd

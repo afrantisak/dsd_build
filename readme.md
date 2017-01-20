@@ -4,6 +4,7 @@
     sudo apt install autoconf automake libtool
     
     sudo apt install libblas-dev liblapack-dev
+    sudo apt install libsndfile1-dev
     
     git clone 
     cd dsd_build
@@ -12,6 +13,12 @@
     mkdir build; cd build; cmake ..
     make
     
-    cd ../mbelib
+    cd ../../mbelib
     mkdir build; cd build; cmake ..
-    make  
+    make
+
+    cd ../../dsd
+    mkdir build; cd build; cmake .. -dLIBMBE_LIBRARY=../../../../mbelib/
+    make
+    
+    
